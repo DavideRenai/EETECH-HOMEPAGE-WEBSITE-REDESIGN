@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Società di consulenza informatica specializzata in sviluppo di applicazioni native cloud, servizi professionali relativi a sistemi cloud e intelligenza artificiale.">
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="EETECH">
+    <meta property="og:description" content="Società di consulenza informatica specializzata in sviluppo di applicazioni native cloud, servizi professionali relativi a sistemi cloud e intelligenza artificiale.">
+    
+    <link rel="shortcut icon" href="images/Logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>EETECH</title>
+</head>
+
+<body>
+    <noscript>È necessario abilitare JavaScript per eseguire questa applicazione.</noscript>
+    
+    <div id="root">
+        <div class="paper-root">
+            <div class="box-wrapper">
+                
+                <!-- Header -->
+                <header class="app-bar">
+                    <div class="header-container">
+                        <div class="header-content">
+                            
+                            <!-- Logo -->
+                            <a class="logo-link" href="https://eetech.it/" title="eetech">
+                                <img class="logo-image" src="images/Logotopbar.png" alt="EETECH Logo">
+                            </a>
+                            
+                            <!-- Navigation Desktop -->
+                            <div class="desktop-nav">
+                                <div class="nav-item">
+                                    <div class="nav-button" onclick="toggleDropdown(this)">
+                                        <p>Panoramica</p>
+                                        <svg class="dropdown-icon" viewBox="0 0 24 24">
+                                            <path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="dropdown-menu">
+                                        <a href="https://eetech.it/cloud">Che cos'è il Cloud</a>
+                                        <a href="https://eetech.it/servizi">Servizi</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="nav-item">
+                                    <div class="nav-button" onclick="toggleDropdown(this)">
+                                        <p>L'azienda</p>
+                                        <svg class="dropdown-icon" viewBox="0 0 24 24">
+                                            <path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="dropdown-menu">
+                                        <a href="https://eetech.it/about">Chi siamo</a>
+                                        <a href="https://eetech.it/team">Il nostro team</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="nav-item">
+                                    <div class="nav-button" onclick="toggleDropdown(this)">
+                                        <p>Portfolio</p>
+                                        <svg class="dropdown-icon" viewBox="0 0 24 24">
+                                            <path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="dropdown-menu">
+                                        <a href="https://eetech.it/infrastruttura-cicd">Infrastruttura per CI/CD</a>
+                                        <a href="https://eetech.it/logging-centralizzato">Logging centralizzato</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="nav-item">
+                                    <a class="btn-contact" href="https://eetech.it/contactpage">Contattaci</a>
+                                </div>
+                                
+                                <div class="nav-item">
+                                    <button class="btn-darkmode" onclick="toggleDarkMode()" aria-label="Dark Mode">
+                                        <img src="images/darkmodeimage.png" alt="Dark Mode">
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </header>
+                
+                <!-- Main Content -->
+                <main>
+                    
+                   <!-- Hero Section -->
+                    <div class="hero-section">
+                        <div class="hero-video">
+                            <div class="video-container">
+                                <img src="images/gif-home.gif" alt="Hero Animation">
+                                <div class="video-overlay"></div>
+                            </div>
+                            <div class="hero-content">
+                                <div class="hero-text">
+                                    <h3 class="hero-title">Accelera la tua conoscenza sul mondo Cloud.</h3>
+                                    <h6 class="hero-subtitle">L'approccio al cloud è in continua crescita. Scopri i servizi dedicati alla tua azienda!</h6>
+                                </div>
+                            </div>
+                            <!-- Partners sulla GIF -->
+                            <div class="partners-overlay">
+                                <div class="partners-grid">
+                                    <img src="images/icons8-aws-logo.svg" alt="AWS">
+                                    <img src="images/apptio-black.png" alt="Apptio">
+                                    <img src="images/azure-black.png" alt="Azure">
+                                    <img src="images/google-cloud-black.png" alt="Google Cloud">
+                                    <img src="images/veeam-black.png" alt="Veeam">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Introduction Section -->
+                    <div class="intro-section">
+                        <div class="intro-container">
+                            <div class="intro-text">
+                                <p class="intro-description">
+                                    Sempre più aziende si affidano al cloud, allo scopo di aumentare l'agilità e la scalabilità dei contenuti, con un probabile risparmio sui costi.
+                                </p>
+                            </div>
+                            
+                            <div class="intro-cta">
+                                <h4 class="cta-title">Vuoi raggiungere anche tu questi benefici?</h4>
+                                <p class="cta-text">
+                                    <strong>Eetech</strong> propone servizi di consulenza professionale e specializzata che ti supportano nel processo di integrazione IT. Scopri i nostri servizi!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr class="divider">
+                    
+                    <!-- Services Section -->
+                    <div class="services-section">
+                        <div class="services-container">
+                            <div class="services-header">
+                                <h3 class="services-title">Servizi</h3>
+                                <p class="services-subtitle">
+                                    Ciò di cui hai bisogno per portare la tua azienda ad<br>
+                                    un alto livello di tecnologia
+                                </p>
+                                <div class="services-cta">
+                                    <a class="btn-primary" href="https://eetech.it/servizi">
+                                        Scopri di più
+                                        <span class="btn-icon">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" fill="none">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="services-grid">
+                                <div class="service-card">
+                                    <img src="images/servizi_cloud.svg" alt="Servizi Cloud">
+                                    <h5>Servizi in Cloud</h5>
+                                    <p>Servizi infrastrutturali erogati in Internet che consentono di gestire le applicazioni all'interno del cloud.</p>
+                                </div>
+                                
+                                <div class="service-card">
+                                    <img src="images/Migrazioni.svg" alt="Migrazioni">
+                                    <h5>Migrazioni</h5>
+                                    <p>Processo di trasferimento dell'infrastruttura da Data Center ad un ambiente Cloud</p>
+                                </div>
+                                
+                                <div class="service-card">
+                                    <img src="images/Agile.svg" alt="Applicazioni Agili">
+                                    <h5>Applicazioni Agili</h5>
+                                    <p>Basate sulla metodologia di sviluppo agile, consentono di costruire e gestire un software in modo rapido ed intuitivo.</p>
+                                </div>
+                                
+                                <div class="service-card">
+                                    <img src="images/CI_CD.svg" alt="CI/CD">
+                                    <h5>CI/CD</h5>
+                                    <p>Metodo che consente di distribuire in maniera continua le applicazioni all'interno del Cloud</p>
+                                </div>
+                                
+                                <div class="service-card">
+                                    <img src="images/iot_ai_ml.svg" alt="IoT, AI & ML">
+                                    <h5>IoT, AI & ML</h5>
+                                    <p>Affidarsi a nuove tecnologie per controllare la propria infrastruttura aziendale</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Section -->
+                    <div class="cta-section">
+                        <div class="cta-container">
+                            <h4 class="cta-heading">Entra anche tu nel mondo Cloud!</h4>
+                            <div class="cta-button-wrapper">
+                                <button class="btn-consultation">RICHIEDI UNA CONSULENZA</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- AWS Partner Section -->
+                    <div class="partner-section">
+                        <div class="partner-container">
+                            <a class="partner-card-link" href="https://eetech.it/">
+                                <div class="partner-card">
+                                    <img class="partner-image" src="images/aws-advanced-partner.png" alt="AWS Advanced Partner">
+                                    <div class="card-content">
+                                        <h5>AWS Advanced Tier Services.</h5>
+                                        <p>
+                                            Un riconoscimento professionale per competenze tecniche ed esperienza con il cliente. 
+                                            Se anche tu stai cercando di entrare in ambienti cloud o vuoi ottimizzare quello che hai già, 
+                                            richiedici una consulenza come partner AWS affidabile.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </main>
+                    
+                <!-- Footer -->
+                <footer class="footer">
+                    <div class="footer-container">
+                        <div class="footer-content">
+                            
+                            <!-- Colonna 1: Logo + Restiamo in contatto -->
+                            <div class="footer-column footer-brand">
+                                <a class="footer-logo-link" href="https://eetech.it/">
+                                    <img class="footer-logo" src="images/Logo.png" alt="EETECH Logo">
+                                </a>
+                                <div class="footer-contact-info">
+                                    <h4>Restiamo in contatto!</h4>
+                                    <div class="footer-hours">
+                                        <svg class="clock-icon" viewBox="0 0 24 24" width="20" height="20">
+                                            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+                                            <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                        <div>
+                                            <p>Lunedì - Venerdì</p>
+                                            <p>9:00 - 18:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Colonna 2: Link Utili -->
+                            <div class="footer-column footer-links-col">
+                                <h4 class="footer-heading">Link Utili</h4>
+                                <nav class="footer-nav">
+                                    <a href="https://eetech.it/cloud">Cloud</a>
+                                    <a href="https://eetech.it/servizi">Servizi</a>
+                                    <a href="https://eetech.it/about">Chi siamo</a>
+                                    <a href="https://eetech.it/team">Team</a>
+                                </nav>
+                            </div>
+                            
+                            <!-- Colonna 3: Contattaci -->
+                            <div class="footer-column footer-contact">
+                                <h4 class="footer-heading">Contattaci</h4>
+                                <div class="contact-items">
+                                    <div class="contact-item">
+                                        <svg class="contact-icon" viewBox="0 0 24 24" width="20" height="20">
+                                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                        </svg>
+                                        <div>
+                                            <p>Galleria Ugo Bassi, 1 - 40121</p>
+                                            <p>Bologna (BO)</p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <svg class="contact-icon" viewBox="0 0 24 24" width="20" height="20">
+                                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                        </svg>
+                                        <p>+39 0510362389</p>
+                                    </div>
+                                    <div class="contact-item">
+                                        <svg class="contact-icon" viewBox="0 0 24 24" width="20" height="20">
+                                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                        </svg>
+                                        <p>info@eetech.it</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Colonna 4: I nostri Social -->
+                            <div class="footer-column footer-social-col">
+                                <h4 class="footer-heading">I nostri Social</h4>
+                                <div class="footer-social-icons">
+                                    <a href="https://www.linkedin.com/company/86366129/admin/feed/posts/" target="_blank" aria-label="LinkedIn" class="social-link">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="https://www.instagram.com/eetech.it/" target="_blank" aria-label="Instagram" class="social-link">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="social-link">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M22.46 6c-.85.38-1.75.64-2.7.76a4.7 4.7 0 0 0 2.07-2.6c-.9.54-1.9.93-2.98 1.14A4.7 4.7 0 0 0 15.42 4c-2.6 0-4.7 2.1-4.7 4.7 0 .37.04.73.11 1.07-3.9-.2-7.36-2.06-9.68-4.9a4.66 4.66 0 0 0-.64 2.36c0 1.63.83 3.07 2.09 3.91a4.65 4.65 0 0 1-2.13-.59v.06c0 2.28 1.62 4.18 3.77 4.61a4.7 4.7 0 0 1-2.12.08 4.7 4.7 0 0 0 4.39 3.26A9.43 9.43 0 0 1 2 19.54a13.28 13.28 0 0 0 7.19 2.11c8.63 0 13.34-7.15 13.34-13.35 0-.2 0-.4-.01-.6.92-.66 1.72-1.49 2.35-2.43z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- Footer Bottom -->
+                        <div class="footer-bottom">
+                            <p>
+                                © EETECH - P.IVA 04039531209. All Rights Reserved | 
+                                <a href="https://www.iubenda.com/privacy-policy/80891333" class="footer-link">Privacy Policy</a> | 
+                                <a href="https://www.iubenda.com/privacy-policy/80891333/cookie-policy" class="footer-link">Cookie Policy</a> | 
+                                <a href="https://www.iubenda.com/termini-e-condizioni/80891333" class="footer-link">Termini e Condizioni</a>
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.app-bar');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            // Scroll to top button
+            const scrollBtn = document.getElementById('scrollToTop');
+            if (window.scrollY > 300) {
+                scrollBtn.classList.add('show');
+            } else {
+                scrollBtn.classList.remove('show');
+            }
+        });
+
+        // Toggle dropdown menu
+        function toggleDropdown(element) {
+            const navItem = element.parentElement;
+            const isActive = navItem.classList.contains('active');
+            
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            if (!isActive) {
+                navItem.classList.add('active');
+            }
+        }
+
+        // Chiudi dropdown quando si clicca fuori
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.nav-item')) {
+                document.querySelectorAll('.nav-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+            }
+        });
+
+        // Dark mode toggle
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+        
+        // Scroll to top functionality
+        document.getElementById('scrollToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    
+</body>
+</html>
