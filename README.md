@@ -29,7 +29,7 @@ The case study covers the full design workflow:
 - **Wireframing** — Low-fidelity sketches and layout exploration
 - **UI Design** — High-fidelity mockups built in Figma
 
-📄 The full case study is available in [`case_study.pdf`](./case_study.pdf) or [`case_study.svg`](./case_study.svg)
+📄 The full case study is available in [`Case_study.pdf`](./Case_study.pdf) or [`Case_study.svg`](./Case_study.svg)
 
 ---
 
