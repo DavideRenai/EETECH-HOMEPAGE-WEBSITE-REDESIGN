@@ -15,8 +15,8 @@ This project documents the end-to-end redesign process of a cloud services homep
 ```
 ├── index.html         # HTML structure of the redesigned homepage
 ├── styles.css         # CSS styling and layout
-├── case-study.pdf     # Full case study (exported from Figma)
-└── case-study.svg     # Case study in vector format
+├── Case_study.pdf     # Full case study (exported from Figma)
+└── Case_study.svg     # Case study in vector format
 ```
 
 ---
